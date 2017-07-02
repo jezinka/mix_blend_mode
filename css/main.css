@@ -1,0 +1,109 @@
+img {
+    width: 33%;
+}
+
+.container {
+    width: 50%;
+}
+
+.red-background {
+    background-color: red;
+    border: 5px solid white;
+    padding: 10px;
+}
+
+.green-background {
+    background-color: green;
+    border: 5px solid white;
+    padding: 10px;
+}
+
+.blue-background {
+    background-color: blue;
+    border: 5px solid white;
+    padding: 10px;
+}
+
+.yellow-background {
+    background-color: yellow;
+    border: 5px solid white;
+    padding: 10px;
+}
+
+.brown-background {
+    background-color: brown;
+    border: 5px solid white;
+    padding: 10px;
+}
+
+.orange-background {
+    background-color: orange;
+    border: 5px solid white;
+    padding: 10px;
+}
+
+.unset {
+    mix-blend-mode: unset;
+}
+
+.screen {
+    mix-blend-mode: screen;
+}
+
+.multiply {
+    mix-blend-mode: multiply;
+}
+
+.exclusion {
+    mix-blend-mode: exclusion;
+}
+
+.saturation {
+    mix-blend-mode: saturation;
+}
+
+.luminosity {
+    mix-blend-mode: luminosity;
+}
+
+.color {
+    mix-blend-mode: color;
+}
+
+.hue {
+    mix-blend-mode: hue;
+}
+
+.overlay {
+    mix-blend-mode: overlay;
+}
+
+.darken {
+    mix-blend-mode: darken;
+}
+
+.lighten {
+    mix-blend-mode: lighten;
+}
+
+.difference {
+    mix-blend-mode: difference;
+}
+
+.soft-light {
+    mix-blend-mode: soft-light;
+}
+
+.hard-light {
+    mix-blend-mode: hard-light;
+}
+
+.color-burn {
+    mix-blend-mode: color-burn;
+}
+
+.color-dodge {
+    mix-blend-mode: color-dodge;
+}
+
+/*# sourceMappingURL=main.css.map */

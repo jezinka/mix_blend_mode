@@ -1,0 +1,24 @@
+$colors: (red, green, blue, yellow, brown, orange);
+$blendMode: (unset, screen, multiply, exclusion, saturation, luminosity, color, hue, overlay, darken, lighten, difference, soft-light, hard-light, color-burn, color-dodge);
+
+img {
+  width: 33%;
+}
+
+.container {
+  width: 50%;
+}
+
+@each $color in $colors {
+  .#{$color}-background {
+    background-color: $color;
+    border: 5px solid white;
+    padding: 10px;
+  }
+}
+
+@each $item in $blendMode {
+  .#{$item} {
+    mix-blend-mode: $item;
+  }
+}
